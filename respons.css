@@ -1,0 +1,845 @@
+
+@media only screen and (min-width: 2350px) {
+
+
+.lift_product_slider {
+    position: absolute;
+    top: 2100px;
+    left: 500px
+}
+
+.slider_right {
+    position: absolute;
+    top: 2095px;
+    right: 530px
+}
+ 
+
+
+}
+
+
+@media only screen and (min-width: 1950px) {
+
+
+.lift_product_slider {
+    position: absolute;
+    top: 2100px;
+    left: 300px
+}
+
+.slider_right {
+    position: absolute;
+    top: 2095px;
+    right: 330px;
+
+}
+ 
+
+
+}
+
+
+@media only screen and (max-width: 1950px) {
+
+
+.lift_product_slider {
+    position: absolute;
+    top: 2100px;
+    left: 200px;
+
+}
+
+.slider_right {
+    position: absolute;
+    top: 2095px;
+    right: 230px
+}
+ 
+
+
+}
+
+
+@media only screen and (max-width: 1750px) {
+
+
+.lift_product_slider {
+    position: absolute;
+    top: 2100px;
+    left: 100px;
+
+}
+
+.slider_right {
+    position: absolute;
+    top: 2095px;
+    right: 130px
+}
+ 
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1674px) {
+    .navbar li {
+
+        margin: 0 30px
+    }
+
+    .third_header_grid {
+
+        grid-column-gap: 70px
+    }
+
+
+
+    #spooky {
+        margin: 0 10px
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 1566px) {
+    .navbar li {
+
+        margin: 0 20px
+    }
+
+    .third_header_grid {
+
+        grid-column-gap: 20px
+    }
+
+
+    .main_third {
+        margin: 0 50px
+    }
+
+    .navbar {
+
+        margin: 0 50px;
+    }
+
+    .search_box input {
+        padding: 10px 150px;
+        border-radius: 100px;
+        border: 1px solid #B8B8B8;
+        margin-top: 10px;
+
+    }
+
+    input::-webkit-input-placeholder {
+        color: black;
+        font-size: 16px;
+        position: relative;
+        right: 90px
+    }
+
+    input:-ms-input-placeholder {
+        color: black;
+        font-size: 16px;
+        position: relative;
+        right: 490px
+    }
+
+    input::placeholder {
+        color: black;
+        font-size: 16px;
+        position: relative;
+        right: 90px
+    }
+
+    .search_icon {
+        position: relative;
+        left: 410px;
+        top: -27px
+    }
+.product_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 30px;
+margin-left: -200px;
+    grid-column-gap: 190px
+}
+
+  
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .product_image img {
+            height: 350px
+        }
+}
+
+    @media only screen and (max-width: 1250px) {
+        .container {
+            display: block;
+        }
+
+        .navbar {
+            display: none;
+        }
+
+        .search_box input {
+            display: none
+        }
+
+        .search_icon {
+            display: none
+        }
+
+        .third_header_grid {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+
+
+        }
+
+        .wish_list,
+        .user_account {
+            display: none
+        }
+
+        .bag {
+            position: relative;
+            left: 400px;
+        }
+
+      
+
+    }
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1137px) {
+        .bag {
+            position: relative;
+            left: 300px;
+        }
+
+
+        .hero h1 {
+            font-size: 80px!important;
+
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .product_image img {
+            height: 250px
+        }
+
+        .products_flex {
+
+
+            position: relative;
+            top: -00px
+        }
+        
+         .product_display {
+    margin-top: -40px;
+
+}
+        
+.lift_product_slider {
+
+    top: 1700px;
+  
+}
+
+.slider_right {
+
+
+    top: 1700px;
+
+}
+        
+        .grid_footer {
+
+    margin-left: 50px;
+    margin-right: 50px
+}
+.second_footer {
+  
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.lower_footer {
+    margin: 0 50px;
+
+
+}
+
+    }
+
+
+
+
+    @media only screen and (max-width: 1005px) {
+        
+
+        .product_image img {
+            height: 220px
+        }
+      
+    }
+
+
+
+    @media only screen and (max-width: 905px) {
+        .products_flex {
+
+            visibility: hidden
+        }
+
+        .products_flex_respon {
+           
+            display: block;
+        margin-top: -200px
+
+        }
+
+        .product_cards_background {
+
+            height: 46.7vh
+        }
+ .product_display {
+    margin-top: -440px;
+
+}
+        
+.lift_product_slider {
+
+    top: 2950px;
+  
+}
+
+.slider_right {
+
+    top: 2950px;
+
+}
+        .inner_range {
+width: 650px;
+
+}
+.grid_footer {
+
+    grid-template-columns: 100%;
+grid-row-gap: 50px;
+    margin-top: -0px
+}
+     
+.inner_footer img {
+display: none;
+}
+        
+        .copyright {
+   
+ display: block;
+
+text-align: center!important;
+  float: left;
+            margin-top: 30px;
+            margin-left: 10px
+
+}
+        .social_icons  {
+    margin-top: -50px
+}
+        
+        .lower_footer {
+   margin-top: 80px;
+    border-top: 1px solid #B8B8B8;
+
+}
+        .payment_images {
+    display: block;
+    float: none;
+            position: relative;
+            top: -70px
+           
+
+}.terms a {
+   margin-top: 90px
+}
+        
+        h1{
+            font-size: 30px!important
+        }
+        h3{
+            font-size: 20px!important
+        }
+        h4{font-size: 16px!important
+    }
+
+
+
+
+    @media only screen and (max-width: 830px) {
+        .bag {
+            position: relative;
+            left: 200px;
+        }
+
+        .hero p {
+
+
+            top: 70%;
+            left: 50%;
+
+
+
+
+        }
+
+        .btn_main {
+
+            top: 80%;
+            left: 50%;
+
+            font-size: 16px;
+
+        }
+
+        .middle_header {
+            display: none
+        }
+
+        .main_third {
+            margin-top: 30px
+        }
+
+        .whatsapp {
+            position: relative;
+            left: 20px;
+            top: -16px
+        }
+
+        .toggle-menu {
+            position: absolute;
+            top: 5.5rem;
+            left: 1rem;
+        }
+
+        .hero h1 {
+
+            position: absolute;
+            top: 40%;
+            left: 50%;
+
+        }
+
+        .hero p {
+
+            position: absolute;
+            top: 55%;
+            left: 50%;
+
+
+
+
+        }
+
+        .btn_main {
+            text-align: center;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+
+
+
+        }
+
+        .toggle {
+
+            width: 50% !important;
+
+
+
+        }
+
+        .toggle-menu_added {
+
+
+            top: 1.9rem !important;
+
+        }
+             .inner_range {
+
+ 
+    width: 600px;
+
+}
+
+
+    }
+
+
+    @media only screen and (max-width: 630px) {
+        .bag {
+            position: relative;
+            left: 150px;
+        }
+
+        .hero h1 {
+            font-size: 50px!important;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+
+        }
+
+        .hero p {
+
+            position: absolute;
+            top: 47%;
+            left: 50%;
+
+
+
+
+        }
+
+        .btn_main {
+
+            top: 55%;
+
+
+
+
+        }
+        .slider {
+    width: 400px;
+ 
+}
+        .slider_arrow svg {
+    height: 40px;
+    width: 40px;
+
+}
+   
+
+    }
+
+
+    @media only screen and (max-width: 630px) {
+
+        .nav-link {
+
+            left: 400px;
+
+        }
+
+
+     .inner_range {
+
+ 
+    width: 450px;
+
+}
+
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 590px) {
+
+        .nav-link {
+
+            left: 400px;
+
+        }
+
+        .toggle {
+
+            width: 60% !important;
+
+
+        }
+
+
+
+    }
+
+
+    @media only screen and (max-width: 530px) {
+
+        .bag {
+
+            left: 100px;
+        }
+
+        .logo {
+            margin-top: 0;
+            margin-left: 25px;
+            position: relative;
+            left: 20px;
+            top: 0
+        }
+
+        p {
+
+            font-size: 15px !important
+        }
+
+        .top_header {
+
+            font-size: 16px;
+
+        }
+
+        button {
+            font-size: 15px !important;
+        }
+
+        .hero p {
+            font-size: 22px !important;
+        }
+
+        .toggle-menu_added {
+
+
+            top: 2rem !important;
+
+        }
+        
+        .lift_product_slider {
+
+   top: 3354px;
+  
+}
+
+.slider_right {
+
+     top: 3350px;
+
+}
+        
+        .ctrl-btn.pro-prev {
+    left: 0px;
+}
+
+.ctrl-btn.pro-next {
+    right:0px;
+}
+
+    }
+
+
+
+
+
+
+
+ @media only screen and (max-width: 530px) {
+
+        .bag {
+
+            left: 100px;
+     }
+     .inner_range {
+
+ 
+    width: 350px;
+
+}
+          .hero h1 {
+            font-size: 40px!important;
+          
+
+        }
+        }
+
+        
+        
+        
+        
+ @media only screen and (max-width: 480px) {
+
+    
+        .hero p {
+
+            position: absolute;
+            top: 47%;
+            left: 50%;;
+            width: 70%
+
+
+
+
+        }
+
+        .btn_main {
+
+            top: 55%;
+            width: 60%
+
+
+
+
+        }
+     .toggle {
+   
+    width: 70% !important;
+    
+
+
+}
+
+        }
+        
+        
+        
+                
+        
+ @media only screen and (max-width: 416px) {
+
+    
+        .hero p {
+
+            position: absolute;
+            top: 47%;
+            left: 50%;;
+            width: 70%
+
+
+
+
+        }
+
+        .btn_main {
+
+            top: 55%;
+            width: 80%
+
+
+
+
+        }
+         .bag {
+
+            left: 70px;
+     }
+     
+     .product_image_respon img{
+         width:300px;
+     }
+     
+     .product_display h1 {
+         width: 90%
+     }
+             .lift_product_slider {
+
+   top: 3000px;
+  
+}
+
+.slider_right {
+
+     top: 3000px;
+
+}  
+        h3{
+            font-size: 16px!important
+        }
+        
+    .hero p {
+
+          font-size: 16px!important
+ }
+     .hero h1{
+         font-size: 30px!important
+     }
+        .btn_main {
+
+          font-size: 16px;
+            width: 70%
+
+
+
+
+        }
+            }
+     .toggle {
+   
+    width: 80% !important;
+    
+
+
+}
+        .user_icon_hamburger svg {
+ 
+    top: -100px;
+  
+}
+.nav-link {
+  
+    font-size: 1.2rem;
+    
+
+}
+  
+        }
+
+
+
+
+        
+ @media only screen and (max-width: 416px) {
+
+        .toggle {
+   
+    width: 87% !important;
+    
+
+
+}
+            .bag {
+
+            left: 40px;
+     }
+     
+       .btn_main {
+
+          font-size: 16px;
+            width: 80%;
+           margin-top: 30px
+
+
+
+
+        }
+     
+       .hero p {
+
+    margin-top: 20px
+ }
+}
