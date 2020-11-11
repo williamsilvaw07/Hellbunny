@@ -14,7 +14,7 @@ html {
 
 html,
 body {
-    width: 100%!important;
+    width: 100% !important;
     margin: 0px;
     padding: 0px;
 
@@ -148,19 +148,23 @@ body {
 }
 
 .search_box input {
-    padding: 10px 290px;
+    height: 40px;
+    width: 100%;
+    padding: 0 30px;
     border-radius: 100px;
     border: 1px solid #B8B8B8;
     margin-top: 10px;
 
 }
 
+input::placeholder {}
+
 .user_icon {}
 
 .user_icon svg {
     display: inline-block;
     float: left;
-    margin: 0 10px;
+    margin: 0 5px;
 
 
 }
@@ -174,11 +178,7 @@ body {
     margin-top: 18px
 }
 
-.search_icon {
-    position: relative;
-    left: 690px;
-    top: -27px
-}
+
 
 input::-webkit-input-placeholder {
     color: black;
