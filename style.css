@@ -155,7 +155,8 @@ input {
     width: 100%;
     position: relative;
     top: 20px;
-    border-radius: 20px
+    border-radius: 20px;
+    border: 1px solid black
 }
 
 
