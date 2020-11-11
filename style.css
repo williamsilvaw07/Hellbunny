@@ -147,19 +147,37 @@ body {
     grid-column-gap: 160px
 }
 
-.search_box input {
-    height: 40px;
+
+
+input {
+    padding: 10px 20px !important;
+    height: 40px !important;
     width: 100%;
-    padding: 0 30px;
-    border-radius: 100px;
-    border: 1px solid #B8B8B8;
-    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    border-radius: 20px
+}
+
+
+
+
+input::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
 
 }
 
-input::placeholder {}
+input:-ms-input-placeholder {
 
-.user_icon {}
+    font-size: 16px;
+
+}
+
+input::placeholder {
+    color: black;
+    font-size: 16px;
+
+}
 
 .user_icon svg {
     display: inline-block;
@@ -180,26 +198,11 @@ input::placeholder {}
 
 
 
-input::-webkit-input-placeholder {
-    color: black;
-    font-size: 16px;
-    position: relative;
-    right: 265px
-}
+input::-webkit-input-placeholder {}
 
-input:-ms-input-placeholder {
-    color: black;
-    font-size: 16px;
-    position: relative;
-    right: 265px
-}
+input:-ms-input-placeholder {}
 
-input::placeholder {
-    color: black;
-    font-size: 16px;
-    position: relative;
-    right: 265px
-}
+input::placeholder {}
 
 .logo {
     margin-top: 0;

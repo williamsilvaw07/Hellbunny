@@ -125,33 +125,24 @@
         margin: 0 50px;
     }
 
-    .search_box input {
 
-        border-radius: 100px;
-        border: 1px solid #B8B8B8;
-        margin-top: 10px;
-
-    }
 
     input::-webkit-input-placeholder {
         color: black;
         font-size: 16px;
-        position: relative;
-        right: 90px
+
     }
 
     input:-ms-input-placeholder {
-        color: black;
+
         font-size: 16px;
-        position: relative;
-        right: 490px
+
     }
 
     input::placeholder {
         color: black;
         font-size: 16px;
-        position: relative;
-        right: 90px
+
     }
 
     .search_icon {
